@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="SeleniumBasics" verbose="1" >
+  <test name="com.TestNGBased.Scripts" >
+  
+    <classes>
+       <class name="com.TestNGBased.Scripts.FetchDataFromGuru99" />
+       <class name="com.TestNGBased.Scripts.GroupsInTestNg" />
+        <class name="com.TestNGBased.Scripts.DataProviderDemo"/>
+    </classes>
+  </test>
+ 
+</suite>

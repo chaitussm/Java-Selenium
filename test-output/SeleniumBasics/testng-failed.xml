@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SeleniumBasics]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="com.TestNGBased.Scripts(failed)">
+    <groups>
+      <run>
+        <include name="Login Page"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestNGBased.Scripts.TestngGroups">
+        <methods>
+          <include name="LoginToMMT"/>
+          <include name="LoginToApp"/>
+          <include name="LoginToGoibibo"/>
+          <include name="LoginToYaatra"/>
+        </methods>
+      </class> <!-- com.TestNGBased.Scripts.TestngGroups -->
+    </classes>
+  </test> <!-- com.TestNGBased.Scripts(failed) -->
+</suite> <!-- Failed suite [SeleniumBasics] -->

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-20T16:14:51 IST" name="Default suite" finished-at="2023-06-20T16:14:51 IST" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2023-06-20T16:14:51 IST" name="Default test" finished-at="2023-06-20T16:14:51 IST" duration-ms="47">
+      <class name="com.TestNGBased.Scripts.DataProviderDemo">
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:com.TestNGBased.Scripts.DataProviderDemo@1bd4fdd]" started-at="2023-06-20T16:14:51 IST" name="testMethod" data-provider="data-provider" finished-at="2023-06-20T16:14:51 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[System Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:com.TestNGBased.Scripts.DataProviderDemo@1bd4fdd]" started-at="2023-06-20T16:14:51 IST" name="testMethod" data-provider="data-provider" finished-at="2023-06-20T16:14:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Integration testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method signature="testMethod(java.lang.String)[pri:0, instance:com.TestNGBased.Scripts.DataProviderDemo@1bd4fdd]" started-at="2023-06-20T16:14:51 IST" name="testMethod" data-provider="data-provider" finished-at="2023-06-20T16:14:51 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User Acceptance Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.TestNGBased.Scripts.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
